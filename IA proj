@@ -1,1 +1,12 @@
-
+from PIL import Image
+ 
+#Showing image from my files#
+img = Image.open(r"C:\Users\Tanner\Downloads\IA Project\.vscode\IA Project\Tops\top 1.jpg")
+img.show()
+ 
+ 
+import random
+ 
+tops_list = ['top 1','WhiteP','BlueC']
+top = random.choice(tops_list)
+print(top)
